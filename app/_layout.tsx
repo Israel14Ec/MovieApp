@@ -1,8 +1,7 @@
-import { Text, View } from 'react-native'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-import '../global.css'
 import { Stack } from 'expo-router';
+import '../global.css';
 
 const RootLayout = () => {
 
